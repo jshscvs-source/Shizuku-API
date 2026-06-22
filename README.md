@@ -248,7 +248,7 @@ We also provides [HiddenApiRefinePlugin](https://github.com/RikkaApps/HiddenApiR
 - Self-implemented permission is used from v11, the API is the same to runtime permission (see the demo, and existing runtime permission still works)
 - Package name was renamed to `rikka.shizuku` (replace all `moe.shizuku.api.` to `rikka.shizuku.`)
 - `ShizukuService` class is renamed to `Shizuku`
-- Methods in `Shizuku` class now throw `RuntimeException` on failure rather than `RemoteException` like other Android APIs
+- Methods in `Shizuku` class now throw `RuntimeException` on failure rather than `RemoteException` like other  Android APIs
 - Listeners are moved from `ShizukuProvider` class to `Shizuku` class
 
 ### Add support for Sui
